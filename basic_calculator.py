@@ -1,9 +1,9 @@
-print("...My First Basic Calculator..")
-my_num=
-print("Enter the First value:")
-print("Enter the second value:")
-print("The answer to your question is ?? = ")
+print("...My First Basic subtracting Calculator..")
 print("")
-print("")
-print("")
-print("")
+num1 = input ("Enter a number without decimal: ")
+num2 = input ("Enter another number without decimal: ")
+result = int(num1) - int(num2)
+print(" ")
+print("The answer is..")
+print(result)
+
