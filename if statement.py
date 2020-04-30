@@ -7,7 +7,7 @@ print("")
 print("Odering food for my friend")
 print("==============================================================")
 is_vegetarian = False
-is_nonveg = True
+is_nonveg = False
 if is_vegetarian and is_nonveg:
     print("Can I order vege burger and fish pie for my friend.")
 elif is_vegetarian and not is_nonveg:
