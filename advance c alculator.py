@@ -15,7 +15,7 @@ elif op == '/':
 elif op == '*':
     print(num1*num2)
 else:
-    print("Gadhe... Not a valid key. please check again.")
+    print("oops... Not a valid key. please check again.")
 
 
 

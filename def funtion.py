@@ -13,7 +13,7 @@ say_hello("steve")
 print("==================================================")
 
 def say(name, age):
-    print("hello "+name+" you are " +age)
-say("mike", "35")
+    print("hello "+name+" you are "+age)
+say("mike", "26")
 say("steve", "40")
 print("==================================================")

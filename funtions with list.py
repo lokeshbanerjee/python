@@ -6,7 +6,7 @@ print(FAMILY)
 
 print("==================================================================================================")
 
-print("This command will append the list and the ammend will always be at the end of the list.")
+print("This command will append the list and the append will always be at the end of the list.")
 FAMILY.append("LOKESH")
 print(FAMILY)
 
