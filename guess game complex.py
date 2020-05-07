@@ -6,7 +6,7 @@ out = False
 print("Enter an animal name who is king of the jungle:")
 print("YOU HAVE THREE GUESSES")
 print("")
-while guess != secrect_word and not (out):
+while guess != secrect_word.lower() and not (out):
     if turn < limit:
        guess = input(" ENTER YOUR GUESS")
        turn += 1

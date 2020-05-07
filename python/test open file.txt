@@ -4,12 +4,4 @@ Lokesh = manager
 Bank TSB
 Branch = LANCING SUSSEX
 ========================
-
-
-
-
-
-
-
-
-
+Saturday and Sunday Close
