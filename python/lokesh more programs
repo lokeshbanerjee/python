@@ -1,0 +1,64 @@
+Q1. Display “My Name Is James” as “My**Name**Is**James” using output formatting of a print() function?
+
+print('My', 'Name', 'Is', 'James', sep='**')
+==========================================================================================================
+Q2. Display float number with 2 decimal places?
+
+print('%.2f' % 458.541315)
+==========================================================================================================
+Q3. Accept list of 5 float numbers as a input from user?
+
+floatNumbers = []
+n = int(input("Enter the list size : "))
+for i in range(0, n):
+    print("Enter number at location", i, ":")
+    item = float(input())
+    floatNumbers.append(item)
+print("User List is ", floatNumbers)
+============================================================================================================
+Q4. Enter three string by user input?
+
+str1, str2, str3 = input("Enter three string").split()
+print(str1, str2, str3)
+============================================================================================================
+Q5.You have following data display it using string.format() method as per the following condition
+quantity = 3
+totalMoney = 1000
+price = 450
+
+Display message should be:
+I have 1000 dollars so I can buy 3 football for 450.00 dollars?
+
+quantity = 3
+totalMoney = 1000
+price = 450
+statement1 = "I have {1} dollars so I can buy {0} football for {2:.2f} dollars."
+print(statement1.format(quantity, totalMoney, price))
+============================================================================================================
+Q6. How to check file is empty or not?
+
+import os
+print(os.stat("test.txt").st_size == 0)
+============================================================================================================
+Q7. Read line number 4 from the following file
+
+test open file.txt file:
+line1
+line2
+line3
+line4
+line5
+line6
+line7
+
+with open("test open file.txt") as fp:
+    lines = fp.readlines()
+    print(lines[3])
+============================================================================================================
+Q8.
+
+
+
+
+
+============================================================================================================
