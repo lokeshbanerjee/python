@@ -1,10 +1,16 @@
 Q1. Display “My Name Is James” as “My**Name**Is**James” using output formatting of a print() function?
 
-print('My', 'Name', 'Is', 'James', sep='**')
+print("My", "Name", "Is", "James", sep="**")
 ==========================================================================================================
 Q2. Display float number with 2 decimal places?
 
-print('%.2f' % 458.541315)
+print("%.2f" % 458.541315) or
+
+num1 = float(input("enter your first nummber :"))
+num2 = float(input("enter your second nummber :"))
+add = num1 + num2
+adding = "{:.2f}".format(add)
+print(adding)
 ==========================================================================================================
 Q3. Accept list of 5 float numbers as a input from user?
 
@@ -51,8 +57,8 @@ line5
 line6
 line7
 
-with open("test open file.txt") as fp:
-    lines = fp.readlines()
+with open("test open file.txt") as letsread:
+    lines = letsread.readlines()
     print(lines[3])
 ============================================================================================================
 Q8.

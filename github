@@ -1,0 +1,32 @@
+git clone command followed by <url>
+* Make a copy of repository on your.
+* Store it on your own computer.
+==========================================================================================================
+git add <filename>
+* After making a copy if you are making any changes.
+* With this command git will add all changes to the repository.
+==========================================================================================================
+git commit -m "message"
+* This will save the file into the git which has been add.
+* you can add a message for reference of what you have add.
+===========================================================================================================
+git commit -am "message"
+* this command if for add and commit together.
+=============================================================================================================
+git status
+* It show current status of the current repository.
+=============================================================================================================
+cd <filename>
+* If you want to go in the file location.
+===========================================================================================================
+git diff
+* Its a little tip to see what changes i have made which haven't been add yet.
+===========================================================================================================
+git push
+* It send committed changes to the remote repository
+* you can also send it to the master origin if you want
+=============================================================================================================
+
+
+
+
